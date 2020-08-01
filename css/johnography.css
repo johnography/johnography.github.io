@@ -1,5 +1,83 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Open Sans', 'Courier New', Courier, monospace;
+  background-color: #f39c12;
+  color: #2c3e50;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0.5em;
+}
+
+h2 {
+  font-size: 33px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0.5em 0em;
+  color: #34495e;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0.5em 0em;
+  color: #34495e;
+}
+
+p {
+  font-family: 'Roboto', 'Courier New', Courier, monospace;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0.5em;
+  color: #34495e;
+}
+
+.sidep {
+  font-family: 'Roboto', 'Courier New', Courier, monospace;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0.5em;
+  color: #34495e;
+}
+
+.code {
+  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0.5em;
+  color: #34495e;
+}
+
+a {
+  color: #34495e;
+}
+
+a:hover {
+  color: #34495e;
+}
+
+a:active {
+  color: #2c3e50;
+}
+
+a:visited {
+  color: #34495e;
+}
+
+.fa-js-square {
+  color: #f7df1e;
+}
+
+.fa-react {
+  color: rgb(129, 216, 247);
 }
 
 img {
