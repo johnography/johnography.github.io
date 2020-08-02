@@ -2,6 +2,7 @@
   background-color: #f39c12;
   /* border: 0.5em solid #f39c12; */
   padding: 1em;
+  border: 1px solid #f39c12;
   border-radius: 0.5em;
   box-shadow: 4px 4px 6px #e67e22, -4px -4px 6px #f1c40f;
 }
