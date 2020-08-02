@@ -15,13 +15,20 @@
 
 .FT-Header {
   grid-area: title;
+  border: 1px solid #f39c12;
+  border-radius: 0.25em;
+  padding: 24px;
 }
 
 .FT-Title {
+  font-size: 22px;
+  text-align: center;
   color: #2c3e50;
 }
 
 .FT-SubTitle {
+  font-style: italic;
+  text-align: center;
 }
 
 .FT-Main {
@@ -32,6 +39,12 @@
 }
 
 .FT-Button {
+  cursor: pointer;
+  text-align: center;
+  background-color: #e74c3c;
+  border: 1px solid #c0392b;
+  border-radius: 50%;
+  box-shadow: 4px 4px 6px #e67e22, -4px -4px 6px #f1c40f, inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f;
 }
 
 .FT-Footer {
