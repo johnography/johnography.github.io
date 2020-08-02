@@ -1,0 +1,10 @@
+.tech-icon-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.tech-icon {
+  margin: auto;
+  padding: 1em;
+}

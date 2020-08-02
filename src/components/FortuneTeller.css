@@ -7,16 +7,17 @@
   width: 100%;
   height: 320px;
   grid-template-columns: 12px auto 12px;
-  grid-template-rows: 12px auto auto auto 12px;
-  grid-template-areas: '. . .' '. title .' '. main .' '. footer .' '. . .';
+  grid-template-rows: 12px auto auto auto auto 12px;
+  grid-template-areas: '. . .' '. title .' '. panel .' '. button .' '. footer .' '. . .';
   gap: 1rem;
   place-items: stretch;
 }
 
 .FT-Header {
   grid-area: title;
-  border: 1px solid #f39c12;
+  border: 1px solid #16a085;
   border-radius: 0.25em;
+  box-shadow: inset 4px 4px 6px #27ae60, inset -4px -4px 6px #1abc9c;
   padding: 24px;
 }
 
@@ -32,21 +33,26 @@
 }
 
 .FT-Main {
-  grid-area: main;
 }
 
 .FT-Panel {
+  grid-area: panel;
+  text-align: center;
+  box-shadow: inset 4px 4px 6px #27ae60, inset -4px -4px 6px #1abc9c;
 }
 
 .FT-Button {
+  grid-area: button;
   cursor: pointer;
   text-align: center;
   background-color: #e74c3c;
   border: 1px solid #c0392b;
   border-radius: 50%;
-  box-shadow: 4px 4px 6px #e67e22, -4px -4px 6px #f1c40f, inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f;
+  box-shadow: 4px 4px 6px #27ae60, -4px -4px 6px #1abc9c, inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f;
 }
 
 .FT-Footer {
   grid-area: footer;
+  text-align: center;
+  font-style: italic;
 }
