@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AboutSite() {
+export default function Footer() {
   return (
     <div>
       <h3>About This Site</h3>

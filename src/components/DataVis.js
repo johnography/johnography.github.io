@@ -23,16 +23,14 @@ const leaseExpiringData = [
   { year: 2025, rsf: 1.29, exp: 31 },
 ];
 
-export default function DeeThree() {
+export default function DataVis() {
   const targetRef = useRef(null);
   const size = useComponentSize(targetRef);
   const { width, height } = size;
   const [data] = useState(initialData);
   return (
     <div ref={targetRef}>
-      <h1>D3.js & Data Visualization</h1>
-      <i className="fas fa-chart-bar fa-10x"></i>
-      <div>{width && height && <GroupedComboChart data={data} dimensions={{ width: '400', height: '200' }} />}</div>
+      {width && height && <GroupedComboChart data={data} dimensions={{ width: '480', height: '240' }} />}
     </div>
   );
 }

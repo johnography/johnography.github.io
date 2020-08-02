@@ -1,8 +1,4 @@
 .contact-card {
-  background-color: #f39c12;
-  border: 1px solid #f39c12;
-  border-radius: 0.5em;
-  box-shadow: 4px 4px 6px #e67e22, -4px -4px 6px #f1c40f;
 }
 
 .contact-card > img {
@@ -11,11 +7,10 @@
   margin: 0.5em;
   height: 64px;
   width: 64px;
-  border: 1px solid #313131;
-  border-radius: 0.5em;
+  padding: 0;
 }
 
 .contact-card > div > p {
   font-size: 0.82em;
-  line-height: 1em;
+  line-height: 1.5em;
 }

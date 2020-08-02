@@ -1,0 +1,21 @@
+.neushadow {
+  background-color: #f39c12;
+  /* border: 0.5em solid #f39c12; */
+  padding: 1em;
+  border-radius: 0.5em;
+  box-shadow: 4px 4px 6px #e67e22, -4px -4px 6px #f1c40f;
+}
+
+li.neushadow,
+a.neushadow {
+  cursor: pointer;
+}
+
+li.neushadow:hover,
+a.neushadow:hover a.neushadow:active {
+  /* -webkit-box-shadow: none; */
+  /* box-shadow: none; */
+  /* -webkit-box-shadow: inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f; */
+  box-shadow: inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f;
+  /* box-shadow: 4px 4px 6px #e67e22, -4px -4px 6px #f1c40f, inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f; */
+}

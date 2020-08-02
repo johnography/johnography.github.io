@@ -9,7 +9,7 @@ export default function SideMenu({ menuItems, menuSelection, setMenuSelection })
         <ul>
           {menuItems.map((item, i) => {
             return (
-              <li key={i} style={{ backgroundColor: item.color }} onClick={() => setMenuSelection(i)}>
+              <li className="neushadow" key={i} onClick={() => setMenuSelection(i)}>
                 {item.name}
               </li>
             );

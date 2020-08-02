@@ -10,7 +10,7 @@ h1 {
   font-size: 44px;
   line-height: 1.5em;
   margin: 0;
-  padding: 0.5em;
+  padding: 0.5em 0em;
 }
 
 h2 {
@@ -31,16 +31,24 @@ h3 {
 
 p {
   font-family: 'Roboto', 'Courier New', Courier, monospace;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5em;
   margin: 0;
   padding: 0.5em;
   color: #34495e;
 }
 
+.centered {
+  text-align: center;
+}
+
+.righted {
+  text-align: right;
+}
+
 .sidep {
   font-family: 'Roboto', 'Courier New', Courier, monospace;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.5em;
   margin: 0;
   padding: 0.5em;
@@ -49,27 +57,21 @@ p {
 
 .code {
   font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.5em;
   margin: 0;
   padding: 0.5em;
   color: #34495e;
 }
 
-a {
-  color: #34495e;
-}
-
-a:hover {
+a,
+a:hover,
+a:visited {
   color: #34495e;
 }
 
 a:active {
   color: #2c3e50;
-}
-
-a:visited {
-  color: #34495e;
 }
 
 .fa-js-square {
