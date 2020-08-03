@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './SideMenu.css';
 
 export default function SideMenu({ menuItems, menuSelection, setMenuSelection }) {

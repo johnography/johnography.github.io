@@ -6,8 +6,9 @@ function Reveal() {
   const [show, setShow] = useState(false);
   return (
     <div onClick={() => setShow(!show)}>
-      <p>John Sullivan</p>
-      <p>
+      <p className="pointer">
+        John Sullivan
+        <br />
         {show ? 'johnography@outlook.com' : 'Click to reveal'}
         <br />
         {show ? '415-879-2257' : 'contact information.'}

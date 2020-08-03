@@ -1,16 +1,23 @@
 .contact-card {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
 }
 
 .contact-card > img {
-  display: block;
-  float: left;
-  margin: 0.5em;
+  /* display: block; */
+  /* float: left; */
+  margin: 0em;
+  padding: 0;
   height: 64px;
   width: 64px;
-  padding: 0;
 }
 
 .contact-card > div > p {
   font-size: 0.82em;
   line-height: 1.5em;
+}
+
+.pointer {
+  cursor: pointer;
 }

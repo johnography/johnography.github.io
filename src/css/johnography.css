@@ -103,7 +103,7 @@ a:active {
 }
 
 .fa-raspberry-pi {
-  color: #9b59b6;
+  color: #c0392b;
 }
 
 .fa-node-js {
@@ -144,6 +144,10 @@ a:active {
 
 .fa-linux {
   color: #2c3e50;
+}
+
+.fa-ubuntu {
+  color: #e74c3c;
 }
 
 img {

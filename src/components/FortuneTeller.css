@@ -4,11 +4,11 @@
   border: 1px solid #f39c12;
   border-radius: 0.5em;
   display: grid;
-  width: 100%;
+  /* width: 100%; */
   height: 320px;
-  grid-template-columns: 12px auto 12px;
-  grid-template-rows: 12px auto auto auto auto 12px;
-  grid-template-areas: '. . .' '. title .' '. panel .' '. button .' '. footer .' '. . .';
+  grid-template-columns: 6px 3fr 1fr 6px;
+  grid-template-rows: 6px auto auto auto 6px;
+  grid-template-areas: '. . . .' '. title title .' '. panel button .' '. footer footer .' '. . . .';
   gap: 1rem;
   place-items: stretch;
 }
@@ -25,11 +25,13 @@
   font-size: 22px;
   text-align: center;
   color: #2c3e50;
+  text-shadow: 1px 1px 1.5px #27ae60, -1px 1px 1.5px #1abc9c;
 }
 
 .FT-SubTitle {
   font-style: italic;
   text-align: center;
+  text-shadow: 1px 1px 1.5px #27ae60, -1px 1px 1.5px #1abc9c;
 }
 
 .FT-Main {
@@ -39,20 +41,39 @@
   grid-area: panel;
   text-align: center;
   box-shadow: inset 4px 4px 6px #27ae60, inset -4px -4px 6px #1abc9c;
+  text-shadow: 1px 1px 1.5px #27ae60, -1px -1px 1.5px #1abc9c;
 }
 
 .FT-Button {
   grid-area: button;
+  user-select: none;
   cursor: pointer;
   text-align: center;
   background-color: #e74c3c;
-  border: 1px solid #c0392b;
+  border: 2px solid #e74c3c;
   border-radius: 50%;
-  box-shadow: 4px 4px 6px #27ae60, -4px -4px 6px #1abc9c, inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f;
+  box-shadow: 4px 4px 6px #27ae60, -4px -4px 6px #1abc9c, inset -4px -4px 6px #e67e22, inset 4px 4px 6px #f1c40f;
+  /* text-shadow: 1px 1px 1.5px #e67e22, -1px -1px 1.5px #f1c40f; */
+  place-self: center;
+  padding: 1em;
+}
+
+.FT-Button:active {
+  grid-area: button;
+  cursor: pointer;
+  text-align: center;
+  background-color: #e74c3c;
+  /* border: 1px solid #c0392b; */
+  border-radius: 50%;
+  box-shadow: inset -4px -4px 6px #f1c40f, inset 4px 4px 6px #e67e22;
+  /* text-shadow: 1px 1px 1.5px #f1c40f, -1px -1px 1.5px #e67e22; */
+  place-self: center;
+  padding: 1em;
 }
 
 .FT-Footer {
   grid-area: footer;
   text-align: center;
   font-style: italic;
+  text-shadow: 1px 1px 1.5px #27ae60, -1px 1px 1.5px #1abc9c;
 }

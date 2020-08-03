@@ -1,5 +1,9 @@
+.menu {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 .menu ul {
-  display: block;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11,7 +15,7 @@
 }
 
 .menu li a {
-  display: block;
+  /* display: block; */
   text-decoration: none;
   padding: 8px;
   color: rgba(0, 0, 0, 0.67);

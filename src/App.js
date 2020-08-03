@@ -24,28 +24,28 @@ import Webpack from './components/Webpack';
 import JestTest from './components/JestTest';
 import FortuneTeller from './components/FortuneTeller';
 
+export const menuItems = [
+  {
+    name: 'Home',
+    link: '/',
+    color: 'rgba(140,70,70,0.25)',
+    component: <Main />,
+  },
+  {
+    name: 'Fortune Teller',
+    color: 'rgba(70,140,70,0.25)',
+    component: <FortuneTeller />,
+  },
+  {
+    name: 'Data Visualizer',
+    link: '/datavis',
+    color: 'rgba(140,140,70,0.25)',
+    component: <DataVis />,
+  },
+];
+
 function App(props) {
   const [menuSelection, setMenuSelection] = useState(null);
-
-  const menuItems = [
-    {
-      name: 'Home',
-      link: '/',
-      color: 'rgba(140,70,70,0.25)',
-      component: <Main />,
-    },
-    {
-      name: 'Fortune Teller',
-      color: 'rgba(70,140,70,0.25)',
-      component: <FortuneTeller />,
-    },
-    {
-      name: 'Data Visualizer',
-      link: '/datavis',
-      color: 'rgba(140,140,70,0.25)',
-      component: <DataVis />,
-    },
-  ];
 
   useEffect(() => {
     setMenuSelection(0);
@@ -70,6 +70,7 @@ function App(props) {
         <div className="footer">
           <Footer />
         </div>
+        {/*  */}
       </div>
     </div>
   );

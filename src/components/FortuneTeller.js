@@ -19,7 +19,7 @@ export default function FortuneTeller() {
     <>
       <div className="Fortune-Teller neushadow">
         <div className="FT-Header">
-          <div className="FT-Title">Fortunes, Forcasts, Lucky Charms</div>
+          <div className="FT-Title">Fortunes, Forecasts, Lucky Charms</div>
           <div className="FT-SubTitle">Catch the dope of your horoscope!</div>
         </div>
         <div className="FT-Panel">

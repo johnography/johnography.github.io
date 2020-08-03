@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open",
     "watch": "webpack --watch",
+    "storybook": "start-storybook",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
@@ -24,6 +25,7 @@
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
+    "@storybook/react": "^5.3.19",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^4.2.0",

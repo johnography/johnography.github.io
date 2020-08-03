@@ -1,6 +1,7 @@
 .neushadow {
   /* background-color: #f39c12; */
   /* border: 0.5em solid #f39c12; */
+  margin: 0.5em;
   padding: 1em;
   border: 1px solid #f39c12;
   border-radius: 0.5em;
@@ -19,4 +20,9 @@ a.neushadow:hover a.neushadow:active {
   /* -webkit-box-shadow: inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f; */
   box-shadow: inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f;
   /* box-shadow: 4px 4px 6px #e67e22, -4px -4px 6px #f1c40f, inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f; */
+}
+
+.neuglow {
+  border-radius: 0.5em;
+  box-shadow: 0px 0px 6px 6px #e67e22;
 }

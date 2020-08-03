@@ -29,8 +29,17 @@ export default function DataVis() {
   const { width, height } = size;
   const [data] = useState(initialData);
   return (
-    <div ref={targetRef}>
-      {width && height && <GroupedComboChart data={data} dimensions={{ width: '480', height: '240' }} />}
-    </div>
+    <>
+      <div>
+        <p>
+          One of the holy grails of modern web visualization is combining the strength of D3 (Data Driven Documents)
+          with the power of React. Using the correct combinations can lead to beautiful adaptive and interactive
+          visualizations of data.
+        </p>
+      </div>
+      <div ref={targetRef}>
+        {width && height && <GroupedComboChart data={data} dimensions={{ width: '480', height: '240' }} />}
+      </div>
+    </>
   );
 }

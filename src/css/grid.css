@@ -2,8 +2,8 @@
   display: grid;
   width: 100vw;
   height: 100vh;
-  grid-template-columns: 12px auto 12px;
-  grid-template-rows: 12px auto auto auto auto auto 12px;
+  grid-template-columns: 6px auto 6px;
+  grid-template-rows: 6px auto auto auto auto auto 6px;
   grid-template-areas: '. . .' '. header .' '. leftmenu .' '. main .' '. rightmenu .' '.footer .' '. . .';
   gap: 1rem;
   place-items: start;
@@ -22,10 +22,10 @@
   }
 }
 
-.container > div {
+/* .container > div {
   background-color: #f39c12;
   border-radius: 1rem;
-}
+} */
 
 .header {
   grid-area: header;
