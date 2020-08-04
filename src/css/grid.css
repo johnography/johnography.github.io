@@ -10,7 +10,7 @@
 }
 
 @media only screen and (min-width: 500px) {
-  .container {
+  .App {
     display: grid;
     /* width: 100vw; */
     /* height: 100vh; */
@@ -33,7 +33,7 @@
   grid-column: 1 / 4;
 }
 
-.leftmenu {
+.left-sidebar {
   /* grid-area: leftmenu; */
   grid-column: 1 / 2;
 }
@@ -43,7 +43,7 @@
   grid-column: 2 / 3;
 }
 
-.rightmenu {
+.right-sidebar {
   /* grid-area: rightmenu; */
   grid-column: 3 / 4;
 }

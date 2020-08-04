@@ -3,7 +3,7 @@ import Menu from './Menu';
 
 export default function LeftSidebar({ menuItems, menuSelection, setMenuSelection }) {
   return (
-    <div class="left-sidebar">
+    <div classMenu="left-sidebar">
       <Menu menuItems={menuItems} menuSelection={menuSelection} setMenuSelection={setMenuSelection} />
     </div>
   );
