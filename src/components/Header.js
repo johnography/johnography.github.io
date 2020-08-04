@@ -1,10 +1,10 @@
 import React from 'react';
-import Contact from './Contact';
+import Titlebar from './Titlebar';
 
 export default function Header() {
   return (
-    <div>
-      <h1>Technical Portfolio</h1>
-    </div>
+    <>
+      <Titlebar />
+    </>
   );
 }

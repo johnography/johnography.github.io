@@ -2,30 +2,29 @@ body {
   font-family: 'Open Sans', 'Courier New', Courier, monospace;
   background-color: #f39c12;
   color: #2c3e50;
-  padding: 0;
-  margin: 0;
+  /* margin: 0; */
 }
 
 h1 {
   font-size: 44px;
   line-height: 1.5em;
-  margin: 0;
-  padding: 0.5em 0em;
+  /* margin: 0; */
+  /* padding: 0.5em 0em; */
 }
 
 h2 {
   font-size: 33px;
   line-height: 1.5em;
-  margin: 0;
-  padding: 0.5em 0em;
+  /* margin: 0; */
+  /* padding: 0.5em 0em; */
   color: #34495e;
 }
 
 h3 {
   font-size: 22px;
   line-height: 1.5em;
-  margin: 0;
-  padding: 0.5em 0em;
+  /* margin: 0; */
+  /* padding: 0.5em 0em; */
   color: #34495e;
 }
 
@@ -33,9 +32,14 @@ p {
   font-family: 'Roboto', 'Courier New', Courier, monospace;
   font-size: 16px;
   line-height: 1.5em;
-  margin: 0;
-  padding: 0.5em;
+  /* margin: 0; */
+  /* padding: 0.5em; */
   color: #34495e;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .centered {
@@ -50,8 +54,8 @@ p {
   font-family: 'Roboto', 'Courier New', Courier, monospace;
   font-size: 14px;
   line-height: 1.5em;
-  margin: 0;
-  padding: 0.5em;
+  /* margin: 0; */
+  /* padding: 0.5em; */
   color: #34495e;
 }
 
@@ -59,8 +63,8 @@ p {
   font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
   font-size: 14px;
   line-height: 1.5em;
-  margin: 0;
-  padding: 0.5em;
+  /* margin: 0; */
+  /* padding: 0.5em; */
   color: #34495e;
 }
 
@@ -148,9 +152,4 @@ a:active {
 
 .fa-ubuntu {
   color: #e74c3c;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }

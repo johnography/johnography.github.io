@@ -1,7 +1,7 @@
 import React from 'react';
-import './SideMenu.css';
+import './Menu.css';
 
-export default function SideMenu({ menuItems, menuSelection, setMenuSelection }) {
+export default function Menu({ menuItems, menuSelection, setMenuSelection }) {
   return (
     menuItems && (
       <div className="menu">
