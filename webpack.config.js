@@ -3,7 +3,9 @@ const webpack = require('webpack');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    index: './src/index.js',
+  },
   mode: 'production',
   module: {
     rules: [
@@ -23,13 +25,13 @@ module.exports = {
       },
     ],
   },
-  // resolve: { extensions: ['*', '.js', '.jsx'] },
+  resolve: { extensions: ['*', '.js', '.jsx'] },
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/dist/',
     filename: 'bundle.js',
   },
-  devtool: 'inline-source-map',
+  // devtool: 'inline-source-map',
   devServer: {
     contentBase: path.join(__dirname, '/'),
     port: 3000,
