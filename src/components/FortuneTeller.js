@@ -18,17 +18,15 @@ export default function FortuneTeller() {
   return (
     <>
       <div className="Fortune-Teller neushadow">
-        <div className="FT-Header">
-          <div className="FT-Title">Fortunes, Forecasts, Lucky Charms</div>
-          <div className="FT-SubTitle">Catch the dope of your horoscope!</div>
+        <div className="Header">
+          <div className="Title">Fortunes, Forecasts, Lucky Charms</div>
+          <div className="SubTitle">Catch the dope of your horoscope!</div>
         </div>
-        <div className="FT-Panel">
-          <p>{fortune}</p>
-        </div>
-        <div className="FT-Button" onClick={() => getFortune()}>
+        <div className="Panel">{fortune}</div>
+        <div className="Button" onClick={() => getFortune()}>
           Push me!
         </div>
-        <div className="FT-Footer">Please come again!</div>
+        <div className="Footer">Please come again!</div>
       </div>
     </>
   );

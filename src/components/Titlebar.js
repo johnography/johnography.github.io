@@ -3,7 +3,7 @@ import React from 'react';
 export default function Titlebar() {
   return (
     <div>
-      <h1>Titlebar</h1>
+      <h1>John Sullivan's Technical Portfolio</h1>
     </div>
   );
 }

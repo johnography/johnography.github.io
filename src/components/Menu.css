@@ -1,6 +1,6 @@
 .menu {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
 }
 
 .menu ul {
@@ -12,27 +12,5 @@
 .menu li {
   margin-bottom: 0.5em;
   border-radius: 0.25em;
-}
-
-.menu li a {
-  /* display: block; */
-  text-decoration: none;
   padding: 8px;
-  color: rgba(0, 0, 0, 0.67);
-}
-
-.menu li:hover {
-}
-
-a,
-a:hover,
-a:visited {
-  font-size: 18px;
-  line-height: 1.5em;
-  /* margin: 0.5em 0em; */
-  color: rgba(0, 0, 0, 0.67);
-}
-
-a:active {
-  color: rgba(0, 0, 0, 0.25);
 }
