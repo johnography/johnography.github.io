@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Tooltip from '@material-ui/core/Tooltip';
 import * as d3 from 'd3';
+import './GroupedComboChart.css';
 
 const columns = ['Year', 'AMERICAS', 'APAC', 'EMEA', 'Capex'];
 
@@ -39,7 +40,7 @@ const GroupedComboChart = ({ data, dimensions }) => {
   const yTicks = y.ticks();
   const y2Ticks = y2.ticks();
   // define the color scale
-  const color = d3.scaleOrdinal().range(['#00467F', '#6583A7', '#98AAC3', '#CCD3E0']);
+  const color = d3.scaleOrdinal().range(['#27ae60', '#2980b9', '#8e44ad', '#2c3e50']);
   // define the line function
   const line = d3
     .line()
@@ -83,11 +84,11 @@ const GroupedComboChart = ({ data, dimensions }) => {
         })}
       </g>
       <g className="line">
-        <path d={line(data)} fill="none" stroke="#0093D0" strokeWidth={2} />
+        <path d={line(data)} fill="none" stroke="#e67e22" strokeWidth={2} />
         {data.map((d, index) => {
           return (
             <Tooltip key={index} title={`Capex: $${d.Capex}MM`} placement="top">
-              <circle cx={x(d['Year']) + x.bandwidth() / 2} cy={y2(d.Capex)} r="4" fill="#0093D0" />
+              <circle cx={x(d['Year']) + x.bandwidth() / 2} cy={y2(d.Capex)} r="4" fill="#e67e22" />
             </Tooltip>
           );
         })}
@@ -124,7 +125,7 @@ const GroupedComboChart = ({ data, dimensions }) => {
           y1={dimensions.height - margin.bottom}
           x2={dimensions.width - margin.right}
           y2={dimensions.height - margin.bottom}
-          style={{ stroke: 'black', strokeWidth: '1' }}
+          style={{ stroke: '#ecf0f1', strokeWidth: '1' }}
         />
         {x
           .domain()
@@ -138,7 +139,7 @@ const GroupedComboChart = ({ data, dimensions }) => {
                   y1={dimensions.height - margin.bottom}
                   x2={xPos}
                   y2={dimensions.height - margin.bottom + 5}
-                  style={{ stroke: 'black', strokeWidth: '1' }}
+                  style={{ stroke: '#ecf0f1', strokeWidth: '1' }}
                 />
                 <text x={xPos} y={dimensions.height - margin.bottom / 2} textAnchor="middle" fontSize={margin.top / 4}>
                   {key}
@@ -161,7 +162,7 @@ const GroupedComboChart = ({ data, dimensions }) => {
           y1={margin.top}
           x2={margin.left}
           y2={dimensions.height - margin.bottom}
-          style={{ stroke: 'black', strokeWidth: '1' }}
+          style={{ stroke: '#ecf0f1', strokeWidth: '1' }}
         />
         {yTicks.map((tick, index) => {
           return (
@@ -171,7 +172,7 @@ const GroupedComboChart = ({ data, dimensions }) => {
                 y1={y(tick)}
                 x2={margin.left - margin.left / 20}
                 y2={y(tick)}
-                style={{ stroke: 'black', strokeWidth: '1' }}
+                style={{ stroke: '#ecf0f1', strokeWidth: '1' }}
               />
               <text x={margin.left / (3 / 2)} y={y(tick)} dy="0.35em" fontSize={margin.left / 8} textAnchor="middle">
                 ${tick}MM
@@ -195,7 +196,7 @@ const GroupedComboChart = ({ data, dimensions }) => {
           y1={margin.top}
           x2={dimensions.width - margin.right}
           y2={dimensions.height - margin.bottom}
-          style={{ stroke: 'black', strokeWidth: '1' }}
+          style={{ stroke: '#ecf0f1', strokeWidth: '1' }}
         />
         {y2Ticks.map((tick, index) => {
           return (
@@ -205,7 +206,7 @@ const GroupedComboChart = ({ data, dimensions }) => {
                 y1={y2(tick)}
                 x2={dimensions.width - margin.right + margin.right / 20}
                 y2={y2(tick)}
-                style={{ stroke: 'black', strokeWidth: '1' }}
+                style={{ stroke: '#ecf0f1', strokeWidth: '1' }}
               />
               <text
                 x={dimensions.width - margin.right * (2 / 3)}
