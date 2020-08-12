@@ -1,29 +1,13 @@
 body {
   font-family: 'Open Sans', 'Courier New', Courier, monospace;
   /* background-color: #f39c12; */
-  background-color: #ecf0f1;
-  color: #2c3e50;
+  background-color: #2c3e50;
+  color: #ecf0f1;
   /* line-height: 150%; */
-}
-
-h1 {
-  /* font-size: 36px; */
-}
-
-h2 {
-  /* font-size: 24px; */
-  color: #34495e;
-}
-
-h3 {
-  /* font-size: 18px; */
-  color: #34495e;
 }
 
 p {
   font-family: 'Roboto', 'Courier New', Courier, monospace;
-  /* font-size: 16px; */
-  color: #34495e;
 }
 
 img {
@@ -42,21 +26,16 @@ img {
 .sidep {
   font-family: 'Roboto', 'Courier New', Courier, monospace;
   font-size: 14px;
-  color: #34495e;
 }
 
 .code {
   font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
   font-size: 14px;
-  color: #34495e;
 }
 
 a,
 a:hover,
-a:visited {
-  color: #34495e;
-}
-
+a:visited,
 a:active {
-  color: #2c3e50;
+  color: #ecf0f1;
 }

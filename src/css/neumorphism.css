@@ -6,7 +6,7 @@
   border: 1px solid #ecf0f1;
   border-radius: 0.5rem;
   /* box-shadow: 4px 4px 6px #e67e22, -4px -4px 6px #f1c40f; */
-  box-shadow: 0.125rem 0.125rem 0.25rem rgba(110, 207, 246, 0.75), -0.125rem -0.125rem 0.25rem rgba(247, 147, 29, 0.75);
+  box-shadow: -0.125rem -0.125rem 0.25rem rgba(110, 207, 246, 0.75), 0.125rem 0.125rem 0.25rem rgba(247, 147, 29, 0.82);
 }
 
 li.neushadow,
@@ -16,11 +16,10 @@ a.neushadow {
 
 li.neushadow:hover,
 a.neushadow:hover a.neushadow:active {
-  /* -webkit-box-shadow: none; */
-  /* box-shadow: none; */
-  /* -webkit-box-shadow: inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f; */
-  box-shadow: inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f;
-  /* box-shadow: 4px 4px 6px #e67e22, -4px -4px 6px #f1c40f, inset 4px 4px 6px #e67e22, inset -4px -4px 6px #f1c40f; */
+  border: 1px solid #ecf0f1;
+  border-radius: 0.5rem;
+  box-shadow: inset 0.125rem 0.125rem 0.25rem rgba(247, 147, 29, 0.82),
+    inset -0.125rem -0.125rem 0.25rem rgba(110, 207, 246, 0.75);
 }
 
 .neuglow {

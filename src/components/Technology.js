@@ -82,9 +82,6 @@ export default function Technology() {
           <FontAwesomeIcon icon={faMicrosoft} size="3x" />
         </div>
         <div className="tech-icon">
-          <FontAwesomeIcon icon={faLinux} size="3x" />
-        </div>
-        <div className="tech-icon">
           <FontAwesomeIcon icon={faUbuntu} size="3x" />
         </div>
       </div>

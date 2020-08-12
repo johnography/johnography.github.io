@@ -42,9 +42,9 @@ function App(props) {
       <div className="header">
         <Header />
       </div>
-      <div className="left-sidebar">
+      {/* <div className="left-sidebar">
         <LeftSidebar menuItems={menuItems} menuSelection={menuSelection} setMenuSelection={setMenuSelection} />
-      </div>
+      </div> */}
       <div className="main">
         <Main menuItems={menuItems} menuSelection={menuSelection} />
       </div>
