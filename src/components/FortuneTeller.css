@@ -48,7 +48,7 @@
 
 .Fortune-Teller .Panel {
   grid-area: panel;
-  height: 4em;
+  height: 5em;
   display: grid;
   place-items: center;
 }
