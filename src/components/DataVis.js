@@ -30,7 +30,7 @@ export default function DataVis() {
   const [data] = useState(initialData);
   return (
     <>
-      <h3>Data Visualization</h3>
+      <h2>Data Visualization</h2>
       <div className="container neushadow">
         <p>
           One of the holy grails of modern web visualization is combining the strength of D3 (Data Driven Documents)

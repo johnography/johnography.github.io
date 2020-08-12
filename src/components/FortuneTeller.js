@@ -17,7 +17,7 @@ export default function FortuneTeller() {
   }
   return (
     <>
-      <h3>Fortune Teller</h3>
+      <h2>Fortune Teller</h2>
       <div className="Fortune-Teller neushadow">
         <div className="Header">
           <div className="Title">Fortunes, Forecasts, Lucky Charms</div>

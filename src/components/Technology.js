@@ -28,7 +28,7 @@ import './Technology.css';
 export default function Technology() {
   return (
     <>
-      <h3>Some Technologies I Use</h3>
+      <h2>Some Technologies I Use</h2>
       <div className="tech-icon-grid neushadow">
         <div className="tech-icon">
           <FontAwesomeIcon icon={faHtml5} size="3x" />
