@@ -36,7 +36,10 @@ export default function DataVis() {
           with the power of React. Using the correct combinations can lead to beautiful adaptive and interactive
           visualizations of data.
         </p>
-        <p>Here is a grouped combo chart with dual axes.</p>
+        <p>
+          Here is a grouped combo chart with dual axes. You can hover around on the data elements to get a tooltip with
+          the values.
+        </p>
       </div>
       <div ref={targetRef} className="neushadow">
         {width && height && <GroupedComboChart data={data} dimensions={{ width: width - 2, height: '240' }} />}

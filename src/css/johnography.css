@@ -6,8 +6,27 @@ body {
   /* line-height: 150%; */
 }
 
-p {
+p,
+.container {
   font-family: 'Roboto', 'Courier New', Courier, monospace;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 0.25em;
+  text-shadow: 0.0625rem 0.0625rem 0.25rem rgba(247, 147, 29, 0.82),
+    -0.0625rem -0.0625rem 0.25rem rgba(110, 207, 246, 0.75);
+}
+
+h1::before,
+h1::after,
+h2::before,
+h3::after,
+h3::before,
+h3::after {
+  content: ' // ';
 }
 
 img {
@@ -33,6 +52,9 @@ img {
   font-size: 14px;
 }
 
+.container {
+  padding: 1rem;
+}
 a,
 a:hover,
 a:visited,
