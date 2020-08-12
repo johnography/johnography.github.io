@@ -9,6 +9,11 @@ body {
 p,
 .container {
   font-family: 'Roboto', 'Courier New', Courier, monospace;
+  line-height: 1.5em;
+}
+
+.container {
+  padding: 1.5rem;
 }
 
 h1,
@@ -16,8 +21,8 @@ h2,
 h3 {
   text-transform: uppercase;
   margin-bottom: 0.25em;
-  text-shadow: 0.0625rem 0.0625rem 0.25rem rgba(247, 147, 29, 0.82),
-    -0.0625rem -0.0625rem 0.25rem rgba(110, 207, 246, 0.75);
+  text-shadow: 2px 2px 0px #2c3e50, 2px -2px 0px #2c3e50, -2px 2px 0px #2c3e50, -2px -2px 0px #2c3e50,
+    3px 3px 0px rgba(247, 147, 29, 0.82), -3px -3px 0px rgba(110, 207, 246, 0.75);
 }
 
 h1::before,
@@ -52,9 +57,6 @@ img {
   font-size: 14px;
 }
 
-.container {
-  padding: 1rem;
-}
 a,
 a:hover,
 a:visited,
