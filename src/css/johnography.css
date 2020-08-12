@@ -13,7 +13,7 @@ p,
 }
 
 .container {
-  padding: 1.5rem;
+  padding: 1.5em;
 }
 
 h1,
@@ -21,8 +21,17 @@ h2,
 h3 {
   text-transform: uppercase;
   margin-bottom: 0.25em;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+  padding: 0rem 0.5rem;
+  /* box-shadow: 1px 1px 1px rgba(247, 147, 29, 0.82), -1px -1px 1px rgba(110, 207, 246, 0.75); */
+  border-top: 1px solid #34495e;
+  /* border-top: 1px solid rgba(110, 207, 246, 0.75); */
+  /* border-left: 1px solid rgba(110, 207, 246, 0.75); */
+  /* border-bottom: 1px solid rgba(247, 147, 29, 0.82); */
+  /* border-right: 1px solid rgba(247, 147, 29, 0.82); */
   text-shadow: 1px 1px 0px #2c3e50, 1px -1px 0px #2c3e50, -1px 1px 0px #2c3e50, -1px -1px 0px #2c3e50,
     1px 1px 1px rgba(247, 147, 29, 0.82), -1px -1px 1px rgba(110, 207, 246, 0.75);
+  background-image: linear-gradient(to right, #2c3e50, #34495e);
 }
 
 h1::before,

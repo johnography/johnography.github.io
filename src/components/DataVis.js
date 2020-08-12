@@ -30,7 +30,8 @@ export default function DataVis() {
   const [data] = useState(initialData);
   return (
     <>
-      <div>
+      <h3>Data Visualization</h3>
+      <div className="container neushadow">
         <p>
           One of the holy grails of modern web visualization is combining the strength of D3 (Data Driven Documents)
           with the power of React. Using the correct combinations can lead to beautiful adaptive and interactive
@@ -40,9 +41,14 @@ export default function DataVis() {
           Here is a grouped combo chart with dual axes. You can hover around on the data elements to get a tooltip with
           the values.
         </p>
-      </div>
-      <div ref={targetRef} className="neushadow">
-        {width && height && <GroupedComboChart data={data} dimensions={{ width: width - 2, height: '240' }} />}
+        <div ref={targetRef} className="neushadow">
+          {width && height && <GroupedComboChart data={data} dimensions={{ width: width - 2, height: '240' }} />}
+        </div>
+        <p>
+          This chart is a natively-styled SVG (Scalable Vector Graphic). One of the best qualities of an SVG file is
+          it's ability to be scaled to any size without any pixelization occuring. They can also be saved and imported
+          into other websites, documents, and presentations.
+        </p>
       </div>
     </>
   );

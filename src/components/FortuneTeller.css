@@ -14,7 +14,7 @@
 
 .Fortune-Teller .Header {
   grid-area: title;
-  border: 1px solid #ecf0f1;
+  /* border: 1px solid #ecf0f1; */
   padding: 24px;
 }
 
@@ -39,8 +39,8 @@
 .Fortune-Teller .SubTitle,
 .Fortune-Teller .Panel,
 .Fortune-Teller .Footer {
-  text-shadow: 0.0625rem 0.0625rem 0.25rem rgba(247, 147, 29, 0.82),
-    -0.0625rem -0.0625rem 0.25rem rgba(110, 207, 246, 0.75);
+  text-shadow: 1px 1px 0px #2c3e50, 1px -1px 0px #2c3e50, -1px 1px 0px #2c3e50, -1px -1px 0px #2c3e50,
+    1px 1px 1px rgba(247, 147, 29, 0.82), -1px -1px 1px rgba(110, 207, 246, 0.75);
 }
 
 .Fortune-Teller .Main {

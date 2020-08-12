@@ -1,10 +1,10 @@
 import React from 'react';
-import AboutSite from './AboutSite';
+import Conclusion from './Conclusion';
 
 export default function Footer() {
   return (
     <>
-      <AboutSite />
+      <Conclusion />
     </>
   );
 }
