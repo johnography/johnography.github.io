@@ -3,9 +3,10 @@
   /* border: 0.5em solid #f39c12; */
   /* margin: 0.5em; */
   /* padding: 1em; */
-  border: 1px solid #f39c12;
-  border-radius: 0.5em;
-  box-shadow: 4px 4px 6px #e67e22, -4px -4px 6px #f1c40f;
+  border: 1px solid #ecf0f1;
+  border-radius: 0.5rem;
+  /* box-shadow: 4px 4px 6px #e67e22, -4px -4px 6px #f1c40f; */
+  box-shadow: 0.125rem 0.125rem 0.25rem rgba(110, 207, 246, 0.75), -0.125rem -0.125rem 0.25rem rgba(247, 147, 29, 0.75);
 }
 
 li.neushadow,

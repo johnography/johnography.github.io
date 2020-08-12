@@ -1,0 +1,8 @@
+.ob-container {
+  display: flex;
+  height: 200px;
+  border: 1px solid #f39c12;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 8px #3498db, -4px -4px 8px #e67e22;
+  background-color: #ecf0f1;
+}
