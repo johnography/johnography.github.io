@@ -11,9 +11,9 @@ export default function SoftUi() {
           that the elements are extruded from the background, naturally this would cause the eye to perceive an orange
           shadow.
         </p>
-        <h3>Example Header Element</h3>
+        <h3>Example Header</h3>
         <div className="container neushadow">
-          <p>Example body element.</p>
+          <p>Some text would go here...</p>
         </div>
         <p>
           You can see this technique used today in everything from blockbuster movies to independent vlogs. Using this
