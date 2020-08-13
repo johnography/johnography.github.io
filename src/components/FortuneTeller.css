@@ -33,20 +33,18 @@
 .Fortune-Teller,
 .Fortune-Teller .Header,
 .Fortune-Teller .Panel {
-  border: 6px solid #2c3e50;
-  border-radius: 0rem;
-  box-shadow: -2px -2px 2px 2px orange, inset -4px -4px 6px cyan, inset 2px 2px 3px cyan;
+  border: 2px solid #2c3e50;
+  /* border-radius: 0.25rem; */
+  box-shadow: -2px -2px 2px 2px orange, inset -2px -2px 2px 2px cyan;
 }
 
 .Fortune-Teller .Title,
 .Fortune-Teller .SubTitle,
-.Fortune-Teller .Panel,
+/* .Fortune-Teller .Panel, */
 .Fortune-Teller .Footer {
-  text-shadow: -1px -1px 0px blue, 1px 1px 0px yellow, -1px -1px 1px cyan, 1px 1px 1px orange;
+  /* -webkit-text-stroke: 2px #2c3e50; */
+  /* text-shadow: 1px 1px 2px cyan, -1px -1px 2px orange; */
   letter-spacing: 4px;
-}
-
-.Fortune-Teller .Main {
 }
 
 .Fortune-Teller .Panel {

@@ -30,6 +30,7 @@ h3 {
   /* border-left: 1px solid rgba(110, 207, 246, 0.75); */
   /* border-bottom: 1px solid rgba(247, 147, 29, 0.82); */
   /* border-right: 1px solid rgba(247, 147, 29, 0.82); */
+  /* box-shadow: 0.125rem 0rem 0.25rem rgba(247, 147, 29, 0.82); */
   text-shadow: 1px 1px 0px #2c3e50, 1px -1px 0px #2c3e50, -1px 1px 0px #2c3e50, -1px -1px 0px #2c3e50,
     1px 1px 1px rgba(247, 147, 29, 0.82), -1px -1px 1px rgba(110, 207, 246, 0.75);
   background-image: linear-gradient(to right, #2c3e50, #34495e);
@@ -52,6 +53,10 @@ img {
 
 .righted {
   text-align: right;
+}
+
+.smaller {
+  font-size: 0.82rem;
 }
 
 .sidep {
