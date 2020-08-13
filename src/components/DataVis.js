@@ -42,7 +42,7 @@ export default function DataVis() {
           the values.
         </p>
         <div ref={targetRef} className="neushadow">
-          {width && height && <GroupedComboChart data={data} dimensions={{ width: width - 2, height: '240' }} />}
+          {width && height && <GroupedComboChart data={data} dimensions={{ width: width - 4, height: '240' }} />}
         </div>
         <p>
           This chart is a natively-styled SVG (Scalable Vector Graphic). One of the best qualities of an SVG file is
