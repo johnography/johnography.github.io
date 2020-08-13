@@ -1,9 +1,9 @@
 import React from 'react';
 import Footer from './Footer';
-import AboutSite from './AboutSite';
+import Conclusion from './Conclusion';
 
 export default { title: 'Footer' };
 
 export const footer = () => <Footer />;
 
-export const aboutSite = () => <AboutSite />;
+export const conclusion = () => <Conclusion />;

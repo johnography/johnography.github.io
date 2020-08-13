@@ -18,16 +18,18 @@ export default function FortuneTeller() {
   return (
     <>
       <h2>Fortune Teller</h2>
-      <div className="Fortune-Teller neushadow">
-        <div className="Header">
-          <div className="Title">Fortunes, Forecasts, Lucky Charms</div>
-          <div className="SubTitle">Catch the dope of your horoscope!</div>
+      <div className="container neushadow">
+        <div className="Fortune-Teller">
+          <div className="Header">
+            <div className="Title">Fortunes, Forecasts, Lucky Charms</div>
+            <div className="SubTitle">Catch the dope of your horoscope!</div>
+          </div>
+          <div className="Panel">{fortune}</div>
+          <div className="Button" onClick={() => getFortune()}>
+            Push me!
+          </div>
+          <div className="Footer">Please come again!</div>
         </div>
-        <div className="Panel">{fortune}</div>
-        <div className="Button" onClick={() => getFortune()}>
-          Push me!
-        </div>
-        <div className="Footer">Please come again!</div>
       </div>
     </>
   );

@@ -25,6 +25,7 @@ h3 {
   padding: 0rem 0.5rem;
   /* box-shadow: 1px 1px 1px rgba(247, 147, 29, 0.82), -1px -1px 1px rgba(110, 207, 246, 0.75); */
   border-top: 1px solid #34495e;
+  /* box-shadow: inset 1px 1px 3px cyan; */
   /* border-top: 1px solid rgba(110, 207, 246, 0.75); */
   /* border-left: 1px solid rgba(110, 207, 246, 0.75); */
   /* border-bottom: 1px solid rgba(247, 147, 29, 0.82); */
@@ -35,11 +36,8 @@ h3 {
 }
 
 h1::before,
-h1::after,
 h2::before,
-h2::after,
-h3::before,
-h3::after {
+h3::before {
   content: ' // ';
 }
 

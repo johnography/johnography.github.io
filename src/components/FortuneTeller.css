@@ -1,7 +1,7 @@
 .Fortune-Teller {
   /* background-color: #ecf0f1; */
   padding: 1em;
-  /* border: 1px solid #ecf0f1; */
+  color: #ecf0f1;
   display: grid;
   /* height: 320px; */
   grid-template-columns: 6px 3fr 1fr 6px;
@@ -10,6 +10,8 @@
   gap: 1rem;
   place-items: stretch;
   text-align: center;
+  /* border-radius: 1rem; */
+  /* box-shadow: inset -1px -1px 4px rgba(110, 207, 246, 0.75), inset 1px 1px 4px rgba(247, 147, 29, 0.82); */
 }
 
 .Fortune-Teller .Header {
@@ -28,19 +30,20 @@
   /* text-shadow: 1px 1px 1.5px #27ae60, -1px 1px 1.5px #1abc9c; */
 }
 
+.Fortune-Teller,
 .Fortune-Teller .Header,
 .Fortune-Teller .Panel {
-  border-radius: 0.5rem;
-  box-shadow: inset 0.125rem 0.125rem 0.25rem rgba(247, 147, 29, 0.82),
-    inset -0.125rem -0.125rem 0.25rem rgba(110, 207, 246, 0.75);
+  border: 6px solid #2c3e50;
+  border-radius: 0rem;
+  box-shadow: -2px -2px 2px 2px orange, inset -4px -4px 6px cyan, inset 2px 2px 3px cyan;
 }
 
 .Fortune-Teller .Title,
 .Fortune-Teller .SubTitle,
 .Fortune-Teller .Panel,
 .Fortune-Teller .Footer {
-  text-shadow: 1px 1px 0px #2c3e50, 1px -1px 0px #2c3e50, -1px 1px 0px #2c3e50, -1px -1px 0px #2c3e50,
-    1px 1px 1px rgba(247, 147, 29, 0.82), -1px -1px 1px rgba(110, 207, 246, 0.75);
+  text-shadow: -1px -1px 0px blue, 1px 1px 0px yellow, -1px -1px 1px cyan, 1px 1px 1px orange;
+  letter-spacing: 4px;
 }
 
 .Fortune-Teller .Main {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Main from './Main';
 import Home from './Home';
-import SoftUi from './SoftUi';
+import UIDesign from './UIDesign';
 import Technology from './Technology';
 import FortuneTeller from './FortuneTeller';
 import DataVis from './DataVis';
@@ -12,7 +12,7 @@ export const main = () => <Main />;
 
 export const home = () => <Home />;
 
-export const softUI = () => <SoftUi />;
+export const uIDesign = () => <UIDesign />;
 
 export const technology = () => <Technology />;
 
