@@ -1,0 +1,15 @@
+.Canvas {
+    /* background-color: #ecf0f1; */
+    padding: 1em;
+    color: #ecf0f1;
+    display: grid;
+    /* height: 320px; */
+    grid-template-columns: 6px 3fr 1fr 6px;
+    grid-template-rows: 6px auto auto auto 6px;
+    grid-template-areas: '. . . .' '. title title .' '. panel button .' '. footer footer .' '. . . .';
+    gap: 1rem;
+    place-items: stretch;
+    text-align: center;
+    /* border-radius: 1rem; */
+    /* box-shadow: inset -1px -1px 4px rgba(110, 207, 246, 0.75), inset 1px 1px 4px rgba(247, 147, 29, 0.82); */
+}
